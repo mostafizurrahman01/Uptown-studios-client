@@ -20,7 +20,7 @@ const SplashBoard = () => {
     }
 
     useEffect(() => {
-        fetch('http://localhost:7000/booksBydate', {
+        fetch('https://quiet-chamber-19934.herokuapp.com/booksBydate', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({date: selectedDate, email:loggedInUser.email})

@@ -7,7 +7,7 @@ const AllOrderList = () => {
     const [orders, setOrders] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:7000/getBook')
+        fetch('https://quiet-chamber-19934.herokuapp.com/getBook')
             .then(res => res.json())
             .then(data => {
                 setOrders(data)

@@ -25,7 +25,7 @@ const CustomerBook = () => {
         formData.append('payment', paymentId)
         formData.append('orderTime',new Date())
 
-        fetch('http://localhost:7000/addBookConfirmation', {
+        fetch('https://quiet-chamber-19934.herokuapp.com/addBookConfirmation', {
             method: 'POST',
             body: formData
         })

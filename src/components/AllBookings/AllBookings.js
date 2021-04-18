@@ -6,7 +6,7 @@ const AllBookings = () => {
     const [books, setBooks] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:7000/addPhotographerBook')
+        fetch('https://quiet-chamber-19934.herokuapp.com/addPhotographerBook')
             .then(res => res.json())
             .then(data => setBooks(data))
     }, [])

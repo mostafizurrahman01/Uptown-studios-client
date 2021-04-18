@@ -31,7 +31,7 @@ const AddRecentWedding = () => {
         formData.append('description', info.description)
         
 
-        fetch('http://localhost:7000/recentWedding', {
+        fetch('https://quiet-chamber-19934.herokuapp.com/recentWedding', {
             method: 'POST',
             body: formData
         })

@@ -29,7 +29,7 @@ const BookForm = ({ modalIsOpen, closeModal, appointmentOn, date, information })
         data.date = date;
         data.created = new Date();
 
-        fetch('http://localhost:7000/addPhotographerBook', {
+        fetch('https://quiet-chamber-19934.herokuapp.com/addPhotographerBook', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)

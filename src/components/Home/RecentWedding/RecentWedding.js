@@ -7,7 +7,7 @@ const RecentWedding = () => {
     const [weddingInfo, setWeddingInfo] = useState([]);
 
     useEffect( () => {
-        fetch('http://localhost:7000/recentWeddingInfo')
+        fetch('https://quiet-chamber-19934.herokuapp.com/recentWeddingInfo')
         .then(res => res.json())
         .then(data => setWeddingInfo(data))
     }, [])

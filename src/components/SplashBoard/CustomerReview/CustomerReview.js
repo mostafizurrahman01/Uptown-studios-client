@@ -23,7 +23,7 @@ const CustomerReview = () => {
         formData.append('description', review.description)
         
 
-        fetch('http://localhost:7000/addReview', {
+        fetch('https://quiet-chamber-19934.herokuapp.com/addReview', {
             method: 'POST',
             body: formData
         })

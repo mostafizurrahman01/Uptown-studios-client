@@ -1,0 +1,33 @@
+/* .img-container img {
+    height: 100%;
+} */
+
+/* .caption-modify {
+    margin-top: -450px;
+    background-color: red;
+} */
+
+/* @media (min-width: 500px) { 
+    .caption-modify{
+
+        display:block;
+        background-color: red;
+    }
+} */
+
+.caption{
+    color:darkgray;
+}
+.p-caption{
+    color:cornflowerblue;
+}
+
+@media (min-width: 1050px) { 
+    .caption{
+        margin-top: -420px;
+        color:darkgray;
+    }
+    .p-caption{
+        color:cornflowerblue;
+    }
+}

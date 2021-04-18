@@ -1,0 +1,35 @@
+.headerBody-container{
+    margin-top: -100px;
+    background-color:lightcyan;
+    height: 630px;
+}
+.title{
+    color: darkslateblue;
+    font-weight:bold;
+    font-size:25px;
+    font-family: sans-serif;
+}
+
+.img-container img {
+    margin-left: 150px;
+    height:400px;
+}
+
+@media (max-width: 750px){
+    .headerBody-container{
+        margin-top:10px;
+        height:800px;
+
+    }
+    .img-container img {
+        margin-top: 20px;
+        margin-left: -20px;
+        height:250px;
+        background-color:red;
+        
+    }
+    .img-container{
+        height: 100px;  
+    }
+
+}

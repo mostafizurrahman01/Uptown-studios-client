@@ -1,0 +1,23 @@
+/* .card-container img {
+        background-color: red;
+        
+} */
+
+.card-box{
+    margin-left: 50px;
+
+}
+
+/* .card-title{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.card-text{
+    font-size:10px;
+    width: 50px;
+} */
+
+.card{
+    width: 350px;
+}

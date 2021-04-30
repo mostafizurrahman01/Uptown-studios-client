@@ -1,14 +1,17 @@
-Hello everyone,
-This is Wedding Photography Website...
-Here You can book Photographer and also add your preferrable date.
-After that this request will go to server and your page will go to book page.
-here is some awesome features.. A random user can not get access to admin panel.
-So, your information will be safe here.
+UpTown Studios
 
-Pls check it out. Hope, all the functionality will work.
-If you face any problem...
-contact us with via...
-facebook : https://www.facebook.com/profile.php?id=100049993879722
+live link: "https://wedding-photography-web.web.app/"
 
-This website Live Link:
-https://wedding-photography-web.web.app/
+Hello,
+This is complete website app. On this website, there have some
+interesting features. Some of these features are :
+1. Dynamic home page,
+2. Information Page,
+3. Authentication System, 
+4. Admin Page, 
+5. Review System,
+6. Contact System,
+6. Footer
+
+I have used a JavaScript framework React which is the most popular. Also, using CSS,
+BootStrap, Material UI etc.
